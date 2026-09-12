@@ -2,34 +2,45 @@
 
 
 
-# [Project Name] 🎯
+# Kattan Aayaalo 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: കട്ടൻ
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Akash Deepu Jacob - College of Engineering Munnar
+- Member 2 :Akash Deepu Jacob - College of Engineering Munnar
+- Member 3: Muhammed Sidhan N - College of Engineering Munnar
 
 ### Project Description
-[2-3 lines about what your project does]
+KattanAayaalo is an interactive Android beverage simulation app that uses the phone’s gyroscope and accelerometer to create realistic drinking and shaking interactions. Users can prepare hot drinks, select cold beverages, and control the experience through physical phone movements.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
+: People are tired of drinking real beverages without getting rewarded for tilting and shaking their phones.
+SipMotion solves this completely unnecessary problem by turning an ordinary drink into an unnecessarily immersive digital drinking experience. 
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
+:KattanAayalo turns drinking into a full-body digital experience.
+Tilt your phone to drink, shake it to mix, and watch your virtual beverage disappear — because apparently, just drinking wasn’t interactive enough.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages: Kotlin
+- Frameworks: Android SDK, Jetpack Compose
+- Libraries: AndroidX, Material 3, Kotlin Coroutines
+-Sensors: Gyroscope & Accelerometer
+Tools: Android Studio, Antigravity IDE, Gradle
+Platform: Android
+: 
+
+
+
+
 
 For Hardware:
 - [List main components]
@@ -39,10 +50,12 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[commands] git clone <repository-url>
+cd KattanAayaalo
+./gradlew build
 
 # Run
-[commands]
+[commands] gradlew.bat build
 
 ### Project Documentation
 For Software:
@@ -51,11 +64,30 @@ For Software:
 ![Screenshot1](Add screenshot 1 here with proper name)
 *Add caption explaining what this shows*
 
+<img width="722" height="1600" alt="Home pg" src="https://github.com/user-attachments/assets/39e9be87-3d8e-482d-a7e8-176fa6650f64" />  ### Home Screen
+
+The home screen introduces **Kattan Aayaalo** as a virtual, motion-controlled beverage experience. It provides two main options: **Hot Beverages**, where users can prepare and mix their drink using physical motion, and **Cold Beverages**, where users can tilt the phone toward their face to simulate drinking.
+
+
+
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
+<img width="722" height="1600" alt="WhatsApp Image 2026-09-12 at 09 41 56" src="https://github.com/user-attachments/assets/9dc3a463-abd3-4aab-9012-9625a22026c9" />
+<img width="722" height="1600" alt="WhatsApp Image 2026-09-12 at 09 41 58" src="https://github.com/user-attachments/assets/634fe358-141d-4fd7-a540-be70c08d5ab4" />
+### Choose Hot Drink Screen
+
+This screen allows users to **select a hot beverage** from a variety of options, such as Masala Chai, Hot Coffee, Black Coffee, Milk Tea, and Milk Coffee. Each drink displays its description, serving size, temperature, and a **“Craft”** option to begin the interactive preparation process.
+
+
+
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
+<img width="722" height="1600" alt="WhatsApp Image 2026-09-12 at 09 41 56" src="https://github.com/user-attachments/assets/3bb7732f-86fb-4c89-a42c-7d1dbc83c944" />
+### Drink Finished Screen
+
+This screen appears when the virtual beverage has been completely consumed. It celebrates the completion with a **“Thirst Defeated!”** message, confetti animation, an empty cup, and a humorous completion message. Users can either **order another drink** or return to the **main menu**.
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
